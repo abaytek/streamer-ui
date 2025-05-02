@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --background: #040404;
+  --foreground: #f8eded;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Genos, san-serif;
+}
+
+@theme {
+  --breakpoint-tv-hd: 1280px;
+  --breakpoint-tv-fullhd: 1920px;
+  --breakpoint-tv-4k: 3840px;
+}
