@@ -30,7 +30,7 @@ export default function Player() {
   //   setIsMuted(video.muted);
   // };
 
-  console.log(isPlaying, isMuted)
+  console.log(isPlaying, isMuted, setIsMuted)
 
   const handleProgress = () => {
     const video = videoRef.current;
