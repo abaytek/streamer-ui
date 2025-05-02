@@ -22,13 +22,15 @@ export default function Player() {
     }
   };
 
-  const handleMute = () => {
-    const video = videoRef.current;
-    if (!video) return;
+  // const handleMute = () => {
+  //   const video = videoRef.current;
+  //   if (!video) return;
 
-    video.muted = !video.muted;
-    setIsMuted(video.muted);
-  };
+  //   video.muted = !video.muted;
+  //   setIsMuted(video.muted);
+  // };
+
+  console.log(isPlaying, isMuted)
 
   const handleProgress = () => {
     const video = videoRef.current;
